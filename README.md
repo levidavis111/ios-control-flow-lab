@@ -28,7 +28,7 @@ if conditionTwo {
 print("D")
 ```
 
-- A
+- A (THIS ONE)
 - B
 - C
 - D
@@ -51,7 +51,7 @@ switch appInfo {
 ```
 
 - appInfo.0 hasn't released yet
-- myCoolApp hasn't released yet
+- myCoolApp hasn't released yet (THIS ONE)
 - Thanks for looking at myCoolApp!
 - I'm not quite sure what you are looking at
 - It will give a compile-time error
@@ -78,7 +78,7 @@ default:
 - A
 - B
 - C
-- D
+- D (THIS ONE)
 
 ***
 ## Question 4
@@ -100,7 +100,7 @@ case "snickers":
 
 - No parentheses around the conditions
 - No opening and closing brackets in each of the cases
-- No default case in the switch statement
+- No default case in the switch statement (THIS ONE)
 - No print statement right outside the switch statement
 
 ***
@@ -114,6 +114,17 @@ let currentWeather = "rain"
 // enter code below
 ```
 
+switch currentWeather {
+    case "rain":
+        print("It's raining")
+    case "snow":
+        print("It's snowing")
+    case "sunny":
+        print("It's sunny")
+    default:
+        print("It's something else")
+}
+
 ***
 ## Question 6
 
@@ -124,6 +135,10 @@ let firstName = "John"
 let lastName = "Appleseed"
 
 // enter code below
+
+var fullName = firstName + " " + lastName
+
+print(fullName)
 ```
 
 ***
